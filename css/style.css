@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 * {
@@ -30,6 +31,7 @@ h1, h2 {
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;
+    
 }
 
 p {
@@ -67,8 +69,9 @@ img {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    overflow: auto;
+    
     padding: 0 40px;
+    
 }
 
 .card {
@@ -117,7 +120,7 @@ img {
 }
 
 .showcase h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     text-align: center;
 }
@@ -125,6 +128,7 @@ img {
 .showcase p {
     margin: 20px 0;
     text-align: center;
+    font-size: 25px;
 }
 
 .showcase .grid {
@@ -191,6 +195,26 @@ img {
 .general .grid {
     grid-template-columns:  45% 55%;
     
+}
+
+/* College */
+
+.college {
+    height: 400px;
+    background-color: #b775f4;
+    color: #fff;
+    position: relative;
+}
+
+.college h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.college p {
+margin: 20px 0;
+text-align: center;
 }
 
 /* Work */
@@ -361,12 +385,16 @@ div[class^='category-'] {
   position: relative; 
 } */
 
-
+footer {
+    background-color: #b19cd9;
+    overflow: hidden;
+}
 
 footer hr {
     display: flex;
    align-items: center;
    justify-content: center;
+   background-color: #b19cd9;
 }
 
 footer p {
@@ -375,6 +403,7 @@ footer p {
     background-color: #b19cd9;
     font-size: 1.2rem;
     padding: 30px 0;
+    
 }
 
 .linkThumb img {
@@ -451,6 +480,20 @@ footer p {
         left: 25%;
     }
 
+    .college {
+        height: 800px;
+    }
+    
+    .college h1, .college p,  .btn{
+        transform: translateY(150px);
+    }
+
+    .college-pic {
+        
+        left: 15%;
+        top: 5%;
+    }
+
     div[class^='category-'] {
         /* margin-bottom: 200px; */
         display: grid;
@@ -461,11 +504,10 @@ footer p {
        
     }
 
-    .imgThumb span input[type="button"]{
-       
-    }
+    
     
 }
+
 
 
 
