@@ -114,9 +114,11 @@ img {
 
 .showcase {
     height: 400px;
-    background-color: #b775f4;
+    /* background-color: #b775f4; */
     color: #fff;
     position: relative;
+    background-image: linear-gradient(to right, rgba(115, 50, 220, 0.8), rgba(142, 39, 231, 0.9)), url('../img/future_technology_prospects.png');
+    background-size: cover;
 }
 
 .showcase h1 {
@@ -129,6 +131,7 @@ img {
     margin: 20px 0;
     text-align: center;
     font-size: 25px;
+    font-weight: 500;
 }
 
 .showcase .grid {
@@ -169,9 +172,10 @@ img {
 
 .general {
     height: 400px;
-    background-color: #b775f4;
+    background-image: linear-gradient(to right, rgba(115, 50, 220, 0.8), rgba(142, 39, 231, 0.8)), url('../img/GettyImages-1159017873-328f614e43004e978b09575a5315a55b.jpg');
     color: #fff;
     position: relative;
+    background-size: cover;
 }
 
 .general h1 {
@@ -201,9 +205,11 @@ img {
 
 .college {
     height: 400px;
-    background-color: #b775f4;
+    
     color: #fff;
     position: relative;
+    background-image: linear-gradient(to right, rgba(115, 50, 220, 0.8), rgba(142, 39, 231, 0.8)), url('../img/GettyImages-964033964-ca3290057ccc4024b57e755423572264.jpg');
+    background-size: cover;
 }
 
 .college h1 {
@@ -508,6 +514,59 @@ footer p {
     
     
 }
+
+/* Loader */
+
+/* .kinetic {
+    position: relative;
+    height: 80px;
+    width: 80px;
+}
+
+.kinetic::after, .kinetic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: #fff;
+    animation: rotateA 2s linear infinite 0.5s;
+}
+
+.kinetic::before {
+    transform: rotate(90deg);
+    animation: rotateB 2s linear infinite;
+}
+
+@keyframes rotateA {
+    0%, 25% {
+        transform: rotate(0deg);
+    }
+
+    50%, 75% {
+        transform: (180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateB {
+    0%, 25% {
+        transform: rotate(90deg);
+    }
+
+    50%, 75% {
+        transform: (270deg);
+    }
+
+    100% {
+        transform: rotate(450deg);
+    }
+} */
 
 
 
