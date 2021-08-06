@@ -120,7 +120,7 @@ img {
     /* background-color: #b775f4; */
     color: #fff;
     position: relative;
-    background-image: linear-gradient(to right, rgba(115, 50, 220, 0.8), rgba(142, 39, 231, 0.9)), url('../img/future_technology_prospects.png');
+    background-image: linear-gradient(to right, rgba(115, 50, 220, 0.8), rgba(142, 39, 231, 0.9));
     background-size: cover;
 }
 
@@ -175,7 +175,7 @@ img {
 
 .general {
     height: 400px;
-    background-image: linear-gradient(to right, rgba(115, 50, 220, 0.8), rgba(142, 39, 231, 0.8)), url('../img/GettyImages-1159017873-328f614e43004e978b09575a5315a55b.jpg');
+    background-image: linear-gradient(to right, rgba(115, 50, 220, 0.8), rgba(142, 39, 231, 0.8));
     color: #fff;
     position: relative;
     background-size: cover;
@@ -211,7 +211,7 @@ img {
     
     color: #fff;
     position: relative;
-    background-image: linear-gradient(to right, rgba(115, 50, 220, 0.8), rgba(142, 39, 231, 0.8)), url('../img/GettyImages-964033964-ca3290057ccc4024b57e755423572264.jpg');
+    background-image: linear-gradient(to right, rgba(115, 50, 220, 0.8), rgba(142, 39, 231, 0.8));
     background-size: cover;
 }
 
@@ -277,15 +277,7 @@ div[class^='category-'] {
     
 }
 
-/* .mid3 {
-    height: 110vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/200504-AI1\ \(1\).jpg);
-  background-size: cover;
-  background-position: top;
-  clip-path: polygon(100% 10px, 100% 140%, 0% 100%, 0 20%);
-  
-  position: relative; 
-} */
+
 
 
 
@@ -385,15 +377,7 @@ div[class^='category-'] {
     
 }
 
-/* .end {
-    height: 110vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/GettyImages-964033964-ca3290057ccc4024b57e755423572264.jpg);
-  background-size: cover;
-  background-position: top;
-  clip-path: circle(40%);
-  
-  position: relative; 
-} */
+
 
 footer {
     background-color: #b19cd9;
