@@ -15,10 +15,10 @@ body {
     font-family: 'Lato', sans-serif;
     color: #333;
     line-height: 1.6;
-    /* background-color: #000; */
-    transition: opacity 2s ease-in;
-    opacity: 0;
-    display: none;
+    background-color: #000;
+    /* transition: opacity 2s ease-in;
+    opacity: 0; */
+    /* display: none; */
 }
 
 ul {
